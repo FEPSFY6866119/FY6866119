@@ -140,15 +140,14 @@
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
     const IntroductionCount = displayWordCount("Introduction_InText");
-    const AbstractCount = displayWordCount("Abstract_InText");
-    const HowHasAIBeenUsedInpsychiatryBeforeCount = displayWordCount("How has AI been used in psychiatry before_InText");
-    const CurrentOpinionsOnOheUseOfAIInPsychiatryCount = displayWordCount("Current opinions on the use of AI in psychiatry_InText");
-    const StrengthsOfAICount = displayWordCount("Strengths of AI_InText");
-    const EthicalConsiderationsConcerningTheusageOfAICount = displayWordCount("Ethical considerations concerning the usage of AI_InText");
+    const HowHasAIBeenUsedInpsychiatryBeforeCount = displayWordCount("AI_InText");
+    const CurrentOpinionsOnOheUseOfAIInPsychiatryCount = displayWordCount("Psychiatry_InText");
+    const StrengthsOfAICount = displayWordCount("Strengths_InText");
+    const EthicalConsiderationsConcerningTheusageOfAICount = displayWordCount("Ethical_InText");
     const ConclusionCount = displayWordCount("Conclusion_InText");
 
     // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + AbstractCount + HowHasAIBeenUsedInpsychiatryBeforeCount + CurrentOpinionsOnOheUseOfAIInPsychiatryCount + StrengthsOfAICount + EthicalConsiderationsConcerningTheusageOfAICount + ConclusionCount;
+    const totalWordCount = IntroductionCount  + HowHasAIBeenUsedInpsychiatryBeforeCount + CurrentOpinionsOnOheUseOfAIInPsychiatryCount + StrengthsOfAICount + EthicalConsiderationsConcerningTheusageOfAICount + ConclusionCount;
     // Display the total word count
     document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   }
@@ -177,48 +176,48 @@ for Artificial Intelligence to modernize our current processes.
     </pre>
     
 <h3 id="How has AI been used in psychiatry before">How has AI been used in psychiatry before</h3>
-    <pre id="HowHasAIBeenUsedInPsyciatryBefore_InText">
+    <pre id="AI_InText">
 Artificial Intelligence has been applied in psychology for a substantial amount of time. With the earliest application created by Joseph Weizenbaum in the late 1960s which was a program called ELIZA, a simple chatbot with limited answers that
 imitated a psychotherapist using Rogerian therapy <a href="#References">[1]</a>(Olawade, 2024). This style of therapy is one developed by Carl Rogers and was based on the notion that the client knows best for themselves and is also encouraged to lead the therapy process. 
 ELIZA is available to be used online <a href="#References">[2]</a> (Landsteiner, 2005) and below is an example of one of my conversations with ELIZA. Although the responses were very simplistic, limited and felt as though they lacked context the signs of Rogerian therapy
 can be clearly seen in the style of response.
-      <p>
+    </pre>
         
 <img src="eliza.png" alt="Banner" width="900" hieght="300">
 Above is a screenshot of my conversation with ELIZA
         
 <h3 id="Current opinions on the use of AI in psychiatry">Current opinions on the use of AI in psychiatry</h3>
-    <pre id="CurrentOpinionsOnTheUseOfAIInPsychiatry_InText">
+    <pre id="Psychiatry_InText">
 As of now there have been evaluations and tests to determine whether Artificial Intelligence could be used in early diagnosis and the results have shown promise as well as concerns. Alaa Abd-alrazaq, a researcher at the Weill Cornell Medical College
 has found that “Artificial intelligence (AI) has been successfully exploited in diagnosing many mental disorders” <a href="#References">[3]</a> (Abd-alrazaq, 2022) after conducting a umbrella review it was found that various ai models were used in diagnosing disorders such 
 as Alzheimer's, schizophrenia, bipolar disease, autism spectrum disorder, PTSD and psychotic disorders. The performance of these ai Models were found to range from 21% to %100 <a href="#References">[4]</a> (Abd-alrazaq, 2022). These results coming from synthesizing data extracted 
 from many reviews show a great potential in using Ai with  Alaa Abd-alrazaq going on to say that “Healthcare professionals in the field should cautiously and consciously begin to explore the opportunities of AI-based tools for their daily routine.” <a href="#References">[5]</a> (Abd-alrazaq, 2022)
-    <p>
+    </pre>
 
 <h3 id="Strengths of AI">Strengths of AI</h3>
-    <pre id="StrengthsOfAI_InText">
+    <pre id="Strengths_InText">
 Using Ai to diagnose mental disorders offers many opportunities. Ai’s strength lies in its ability to rapidly analyse huge amounts of information which will then be collected to guide decision making. Another advantage is that Ai can also be used to
 predict treatment response with the potential to bypass ineffective medication trials, invasive and expensive brain stimulation therapies, or time-consuming psychotherapies <a href="#References">[6]</a> (Lee, 2022). AI can also be used to battle the stigma surrounding seeing
 a therapist or psychiatrist as chatbots can be made to help with issues such as anxiety or depression. Many chatbots have already been created, some of the most prominent include Woebot, Wysa and Tess. Woebot is made to be able to administer CBT 
 (cognitive behavioural therapy) in the form of daily conversations which can help disorders like anxiety and depression. Wysa, on the other hand, is able to use CBT as well as mindfulness <a href="#References">[7]</a> (D’Alfonso, 2020) to help patients with depression. 
 The use of chatbots shows potential , however more studies with good sample sizes need to be conducted and different approaches need to be implemented such as empathetic AI as chatbots yet are bot able to express empathy In nuanced ways, the harnessing 
 of empathetic AI will significantly enhance the effectiveness.
-    <p>
+    </pre>
 
 <h3 id="Ethical considerations concerning the usage of AI">Ethical considerations concerning the usage of AI</h3>
-    <pre id="EthicalConsiderationsConcerningTheUsageOfAI_InText">
+    <pre id="Ethical_InText">
 Apart from all the exciting research done in this area there are many ethical considerations we must consider. One of which being privacy and data security <a href="#References">[8]</a>(Kasula, 2023)this will be because the AI models used are made for handling huge amounts of
 patient data which could pose some data security concerns if the data is misused or compromised. Patient consent and autonomy <a href="#References">[9]</a> (Kasula, 2023) should be taken very seriously, patients should also be well informed and educated about the processes involved.
 A perfect scenario is one where the patient is able to make informed decisions, and a balance is struck between consent and the complexities of algorithmic decision making. More concerns arise from the impact of ai on the relationship between mental health
 professionals and their clients <a href="#References">[10]</a> (Kasula, 2023). Questions discussing the role of AI in supporting rather than completely replacing clinicians are important when learning more about this evolving industry.
-  <p>
+    </pre>
 
 <h3 id="Conclusion">Conclusion</h3>
     <pre id="Conclusion_InText">
 In conclusion, Artificial intelligence shows great potential in helping diagnose mental disorders. The integration of Ai has many benefits such as circumventing the stigma around seeing a psychologist as well as being able to spot patterns in huge amounts 
 of data. However, there are also concerns relating to the use of Ai in diagnosing mental health conditions, one of which being privacy and data security, these ai models will be handling sensitive patient information which cannot be compromised. 
 With continued research and testing we can expect to see Ai become increasingly prevalent in psychiatry. 
-    <p>
+    </pre>
 
 <h3 id="References">Reference</h3>
     <pre id="References_InText">
