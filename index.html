@@ -28,54 +28,39 @@
              tr:nth-child(even) {
                background-color:#FFFFFF;
              }
+         
+<!style for tables>
+  <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 30%
+
+        }
+
+        td, th {
+          border: 1px solid #dddddd:
+          text-align: left;
+          padding: 8px;
+         }
+
+         tr:nth-child(even)
+           background-color: #dddddd;
+
+
+
+
+   </style>
+
+       
+
+       
+       
+         
 
 
 
          
-       </style>
-       
-   <style>
-p.ex1 {
-  margin-left: 250px;
-}
-</style>
-   </head>
-  
-</style>
-
-<!-- Placeholder for total word count -->
-<p id="totalWordCount"></p>
-<hr>
-<script>
-  // Function to calculate and display word count for a specified section
-  function displayWordCount(sectionId, outputId) {
-    // Get the text content from the specified section
-    const text = document.getElementById(sectionId).textContent;
-    // Split text into words based on spaces and filter out any empty strings
-    const wordArray = text.trim().split(/\s+/);
-    // Count the words
-    const wordCount = wordArray.length;
-    // Return the word count for summing purposes
-    return wordCount;
-  }
-  // Function to calculate and display total word count from selected sections
-  function displayTotalWordCount() {
-    // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Introduction_InText");
-    const HowHasAIBeenUsedInPsyciatryBeforeCount = displayWordCount("HowHasAIBeenUsedInPsyciatryBefore_InText");
-    const CurrentOpninionsOnTheUseOfAIInPsyciatryCount = displayWordCount("CurrentOpninionsOnTheUseOfAIInPsyciatry_InText");
-    const StrengthsOfAICount = displayWordCount("StrengthsOfAI_InText");
-    const EthicalConsiderationsConcerningTheUseOfAICount = displayWordCount("EthicalConsiderationsConcerningTheUseOfAI_InText");
-    const ConclusionCount = displayWordCount("Conclusion_InText");
-    // Calculate the sum of all selected sections
-    const totalWordCount = IntroductionCount + HowHasAIBeenUsedInPsyciatryBeforeCount + CurrentOpninionsOnTheUseOfAIInPsyciatryCount + StrengthsOfAICount + EthicalConsiderationsConcerningTheUseOfAICount + ConclusionCount;
-    // Display the total word count
-    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-  }
-  // Run the function for specific sections and display total count when the page loads
-  window.onload = displayTotalWordCount;
-</script>
-
 <h3 id="Introduction">Introduction</h3>
     <pre id="Introduction_InText">
 As the use of artificial intelligence makes waves in industries across the world, an area with huge potential in this aspect is the healthcare industry, more specifically in helping Psychiatrists diagnose and spot underlying mental health issues.
@@ -90,5 +75,6 @@ imitated a psychotherapist using Rogerian therapy (Olawade, 2024). This style of
 ELIZA is available to be used online [1] (Landsteiner, 2005) and below is an example of one of my conversations with ELIZA. Although the responses were very simplistic, limited and felt as though they lacked context the signs of Rogerian therapy
 can be clearly seen in the style of response.
       <p>
+
         
-    
+     
